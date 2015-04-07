@@ -1,4 +1,4 @@
-FROM dockerfile/ubuntu
+FROM ubuntu
 MAINTAINER Ivar Grimstad <ivar.grimstad@gmail.com>
 #---- apache2 ---
 
