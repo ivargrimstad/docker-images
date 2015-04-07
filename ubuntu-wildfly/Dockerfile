@@ -1,6 +1,8 @@
 FROM ivargrimstad/ubuntu-java8
 MAINTAINER Ivar Grimstad <ivar.grimstad@gmail.com>
 
+RUN apt-get update && apt-get install curl -y
+
 #----- Wildfly ---
 # Set the WILDFLY_VERSION env variable
 ENV WILDFLY_VERSION 8.2.0.Final
